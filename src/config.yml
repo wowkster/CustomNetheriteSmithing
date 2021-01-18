@@ -1,0 +1,37 @@
+#Customizable Messages
+messages:
+  #Prefix before all plugin messages
+  prefix: "&7[&bNetheriteSmithing&7] &e"
+
+  #Sent when sender has insufficient permissions
+  no-permission: "&cYou do not have permission"
+
+  #Customizable messages relating to the /smithing reload command
+  reload:
+    done: "&eReloaded Config"
+    invalid-argument: "&cUsage: /smithing reload"
+
+  #Sent when player has an insufficient number of ingots to upgrade an armor piece/tool
+  # '%NEEDED%' is replaced by the number of ingots the player still needs
+  need-more-ingots: "&cYou need %NEEDED% more ingot(s)"
+
+#Controls the sound played when a player doesn't have enough netherite
+sounds:
+  #Based on the Bukkit Sound Enum. To find a list of all available sounds, go to https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+  sound: "ENTITY_ENDERMAN_TELEPORT"
+  #Controls whether or not the sound is played
+  play-sound: true
+  volume: 0.6
+  pitch: 1.0
+
+#Number of netherite ingots required to upgrade the following
+smithing:
+  DIAMOND_AXE: 3
+  DIAMOND_BOOTS: 4
+  DIAMOND_CHESTPLATE: 8
+  DIAMOND_HELMET: 5
+  DIAMOND_HOE: 2
+  DIAMOND_LEGGINGS: 7
+  DIAMOND_PICKAXE: 3
+  DIAMOND_SHOVEL: 1
+  DIAMOND_SWORD: 2

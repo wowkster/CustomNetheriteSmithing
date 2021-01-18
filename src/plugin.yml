@@ -1,0 +1,10 @@
+name: CustomNetheriteSmithing
+version: 1.3.1
+main: com.adrianwowk.netherite.SpigotPlugin
+author: Adrian Wowk
+api-version: 1.14
+commands:
+  smithing:
+permissions:
+  smithing.reload:
+    default: op
